@@ -253,61 +253,26 @@ footer .alunos .aluno .social svg {
   }
 }
 
-.card1 .img {
-  background-image: url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2020/08/games-famosos-10-jogos-novos-e-antigos-que-seguram-a-fama-1.jpg.webp");
-}
-
-.card2 .img {
-  background-image: url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2020/08/games-famosos-10-jogos-novos-e-antigos-que-seguram-a-fama-1.jpeg.webp");
-}
-
-.card3 .img {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets1.ignimgs.com%2F2019%2F05%2F30%2Fcall-of-duty-modern-warfare---button-01-1559237615728.jpg&f=1&nofb=1");
-}
-
-.card4 .img {
-  background-image: url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2020/08/games-famosos-10-jogos-novos-e-antigos-que-seguram-a-fama-3.jpg.webp");
-}
-
-.card5 .img {
-  background-image: url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2020/08/games-famosos-10-jogos-novos-e-antigos-que-seguram-a-fama-4.jpg.webp");
-}
-
-.card6 .img {
-  background-image: url("https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2020/08/games-famosos-10-jogos-novos-e-antigos-que-seguram-a-fama-5.jpg.webp");
-}
-
-.card .img {
-  width: 100%;
-  height: 65%;
-  border-top-left-radius: 3%;
-  border-top-right-radius: 3%;
-  background-size: cover;
-}
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #202731;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 139, 0.678)), to(#202731)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FA3XGd7RZkNFqU%2Fgiphy.gif") no-repeat top;
+  background: linear-gradient(to bottom, rgba(0, 0, 139, 0.678), #202731), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FA3XGd7RZkNFqU%2Fgiphy.gif") no-repeat top;
+  background-size: cover;
   color: #fff;
 }
 
-body .banner {
-  height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 139, 0.678)), to(#202731)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FA3XGd7RZkNFqU%2Fgiphy.gif");
-  background: linear-gradient(to bottom, rgba(0, 0, 139, 0.678), #202731), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FA3XGd7RZkNFqU%2Fgiphy.gif");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body main {
+  height: 80vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,99 +282,50 @@ body .banner {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
-body .banner h1 {
-  width: 7ch;
-  -webkit-animation: typing 1s steps(7), blink 0.5s step-end infinite alternate;
-          animation: typing 1s steps(7), blink 0.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-weight: 700;
-  font-size: 5rem;
-}
-
-body .banner .btn {
-  margin-top: 2rem;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 2rem;
-  color: aqua;
-  border: 1px solid aqua;
-  padding: 0.5rem 2rem;
-  border-radius: 5%;
-}
-
-body #cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  padding-left: 6%;
-  padding-right: 6%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 1rem;
-}
-
-body #cards .card {
-  width: 25.5rem;
-  height: 32rem;
-  border-radius: 3%;
-  background-color: #181a1b;
-}
-
-body #cards .card .card__conteudo {
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+body main form {
+  height: 20rem;
+  width: 20rem;
   gap: 10px;
+  background-color: #181a1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-body #cards .card .card__conteudo .btn {
-  -ms-grid-column-align: end;
-      justify-self: end;
-  text-decoration: none;
-  font-weight: 700;
+body main form .btn {
   background-color: #181a1b;
   border-radius: 5%;
   border: 1px solid darkblue;
   color: #ffffff;
-  padding: 0.8rem 5rem;
+  padding: 0.8rem 4.7rem;
   text-shadow: 0px 1px 0px darkblue;
   cursor: pointer;
 }
 
-body #cards .card .card__conteudo .btn:hover {
+body main form .btn:hover {
   background-color: darkblue;
 }
 
-body #cards .card .card__conteudo .btn:active {
+body main form .btn:active {
   background-color: darkblue;
   position: relative;
   top: 1px;
 }
-/*# sourceMappingURL=style.css.map */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+/*# sourceMappingURL=login.css.map */

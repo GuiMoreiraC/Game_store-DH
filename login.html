@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/login.css" />
         <title>DH plays</title>
     </head>
     <body>
@@ -21,94 +21,24 @@
             <!-- Menu -->
             <nav>
                 <ul class="menu">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#cards">Games</a></li>
-                    <li><a href="#footer">Sober nós</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#cards">Games</a></li>
+                    <li><a href="index.html#footer">Sober nós</a></li>
                     <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section id="hero">
-                <section class="banner">
-                    <h1>DH plays</h1>
-                    <a href="#cards" class="btn">Let's Play</a>
-                </section>
-            </section>
-
-            <section id="cards">
-                <section class="card card1">
-                    <div class="img"></div>
-                    <div class="card__conteudo">
-                        <h3>League of Legends</h3>
-                        <p>
-                            League of Legends é um jogo em equipes com mais de
-                            140 Campeões com os quais você pode fazer jogadas
-                            insanas.
-                        </p>
-                        <a href="game.html" class="btn">play</a>
-                    </div>
-                </section>
-                <section class="card card2">
-                    <div class="img"></div>
-                    <div class="card__conteudo">
-                        <h3>GTA 5</h3>
-                        <p>
-                            GTA 5 é o sétimo jogo da franquia, lançado em 2013.
-                        </p>
-                        <a href="game.html" class="btn">play</a>
-                    </div>
-                </section>
-                <section class="card card3">
-                    <div class="img"></div>
-                    <div class="card__conteudo">
-                        <h3>Call of Duty: Modern Warfare</h3>
-                        <p>
-                            A última versão do jogo é Modern Warfare, que se
-                            destaca pela missões online em grupos.
-                        </p>
-                        <a href="game.html" class="btn">play</a>
-                    </div>
-                </section>
-                <section class="card card4">
-                    <div class="img"></div>
-                    <div class="card__conteudo">
-                        <h3>Fortnite</h3>
-                        <p>
-                            Fortnite é um jogo que mistura características dos
-                            jogos de tiro com um visual mais cartunesco e
-                            divertido.
-                        </p>
-                        <a href="game.html" class="btn">play</a>
-                    </div>
-                </section>
-                <section class="card card5">
-                    <div class="img"></div>
-                    <div class="card__conteudo">
-                        <h3>Dota 2</h3>
-                        <p>
-                            Dota surgiu apenas como modificação de Warcraft III,
-                            mas acabou ganhando uma sequência na forma de jogo
-                            próprio.
-                        </p>
-                        <a href="game.html" class="btn">play</a>
-                    </div>
-                </section>
-                <section class="card card6">
-                    <div class="img"></div>
-
-                    <div class="card__conteudo">
-                        <h3>Valorant</h3>
-                        <p>
-                            Depois de passar mais de dez anos tendo LoL como seu
-                            único jogo, a Riot enfim lançou um novo produto.
-                        </p>
-                        <a href="game.html" class="btn">play</a>
-                    </div>
-                </section>
-            </section>
+            <form action="/action_page.php">
+                <label for="fname">E-mail:</label><br />
+                <input type="text" id="fname" name="fname" /><br />
+                <label for="lname">senha:</label><br />
+                <input type="text" id="lname" name="lname" /><br /><br />
+                <input class="btn" type="submit" value="Submit" />
+            </form>
         </main>
+
         <footer id="footer">
             <div class="alunos">
                 <div class="aluno">

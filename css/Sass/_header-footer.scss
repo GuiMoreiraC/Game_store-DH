@@ -53,7 +53,7 @@ footer{
   color: $textcolorLight;
   @include mixinFex ( center, center );
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
 
   .alunos{
       width: 80%;
