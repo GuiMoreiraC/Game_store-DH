@@ -1,4 +1,4 @@
-# [github-pages ](https://guimoreirac.github.io/checkpoint-02_front_I/)
+# [github-pages ](https://guimoreirac.github.io/Game_store-DH/)
 
 # Checkpoint 02 - Front end I
 
